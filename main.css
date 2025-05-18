@@ -11,6 +11,19 @@
 }
 
 /* Write your code below this */
+/* Removes unwanted styling from the page */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  max-width: 100%;
+}
+
+/* Write your code below this */
 .title{
   display: flex;
   gap: 80px;
@@ -35,4 +48,504 @@ background-image:url('images/08_VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.png.j
 min-height: 100vh;
 background-size: cover;
 
+}
+.h1{
+  color:white;
+  margin-left: 60px;
+  text-align: left;
+  padding-top: 120px;
+  font-size: xx-large;
+}
+.input-position{
+  background-color: white;
+  margin-left:50px ;
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+  margin-right: 40px;
+  border-radius:20px;
+  position: fixed;
+  height: 100px;
+ 
+
+
+
+}
+.inputs{
+   border-radius: 5px;
+    border:1px solid #9ea0ad;
+    height: 50px;
+    margin: 10px;
+    width: 300px;
+    position: relative
+ 
+
+
+
+  
+}
+.sign-in{
+  display:flex;
+  background-color: rgb(75, 100, 145);
+  border-radius: 40px;
+  gap:280px
+}
+
+.message{
+  width: 40px;
+  margin-right: 10px;
+}
+.button1{
+  border-radius: 15px;
+  background-color: blue;
+ 
+}
+.flex22{
+  display:flex;
+  gap: 60px;
+  padding-left: 30px;
+  padding-right: 20px;
+  -ms-flex-item-align:center ;
+
+ background-size: cover;
+ min-height: 100vh;
+}
+.apartment{
+  background-image:url('images/44_2a5bbcec59e65b6d356c04632a9f49b4.jpg.jpeg');
+ background-size: cover;
+border-radius:20px;
+ min-width: 200px;
+}
+
+
+
+.villa{
+ background-image:url('images/42_291594956b6e4821f478e7e8c0120d25.jpg.jpeg');
+
+ background-size: cover;
+ border-radius:20px;
+  min-height:10px;
+ min-width: 200px;
+  text-align: center;
+}
+.cottage{
+ background-image: url('images/41_4fc9ff3986c014c1395539c8fe172bde.jpg.jpeg');
+ background-size: cover;
+  min-height:10px;
+ min-width: 200px;
+ border-radius:20px;
+}
+
+.home{
+   background-image: url('images/36_a8108c999af77c008e3568085bec6efb.jpg.jpeg');
+
+ background-size: cover;
+  min-height:10px;
+ min-width: 200px;
+ border-radius:20px;
+
+}
+.country{
+  
+  min-height:10px;
+ min-width: 200px;
+   background-image:url('images/36_a8108c999af77c008e3568085bec6efb.jpg.jpeg');
+text-align: center;
+border-radius:20px;
+}
+.h1acc{
+  margin-left:40px ;
+  color: blue;
+  font-size:36px;
+  
+
+}
+.ph:hover{
+  color: blue;
+}
+.btn1{
+  border-radius: 20px;
+  align-items: center;
+  align-content: center;
+ height: 60px;
+ display: inline-flex;
+ background-color: blue;
+
+}
+
+
+
+.mino{
+  border:solid white;
+  background-color: white;
+  width: 400px;
+   border-radius: 20px;
+  margin-left: 40px;
+  margin-top: 90px;
+  height:400px
+
+  
+  
+ 
+}
+.last{
+  display: flex;
+  background-size: cover;
+  border-radius: 20px;
+min-height: 100vh;
+background-image:url('images/06_732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101.jpg.jpeg')
+}
+.browse{
+  color:darkblue
+}
+.unusual {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: left;
+}
+
+.wordss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.rowf {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wordss p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.destination{
+  gap:20px;
+}
+.paragraph{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.travel-dest{
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:50px
+ 
+}
+.btnlast{
+  width: 250px;
+  margin-left:50px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color:rgb(0, 85, 255);
+ 
+}
+.lastly {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    margin-bottom: 30px;
+  padding-right: 110px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.list li {
+    color: blue;
+    cursor: pointer;
+}
+
+.list li:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.pursue{
+  padding-right:250px;
+}
+.year{
+  padding-left: 20px;
+}title{
+  display: flex;
+  gap: 80px;
+}
+.btn{
+  border-color: black;
+  border-radius: 15px;
+  display:flex;
+
+  
+}
+
+.Downloads{
+  height: 20px;
+}
+.p:hover{
+color:blue
+}
+.accomodation{
+  
+background-image:url('images/08_VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.png.jpeg');
+min-height: 100vh;
+background-size: cover;
+
+}
+.h1{
+  color:white;
+  margin-left: 60px;
+  text-align: left;
+  padding-top: 120px;
+  font-size: xx-large;
+}
+.input-position{
+  background-color: white;
+  margin-left:50px ;
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+  margin-right: 40px;
+  border-radius:20px;
+  position: fixed;
+  height: 100px;
+ 
+
+
+
+}
+.inputs{
+   border-radius: 5px;
+    border:1px solid #9ea0ad;
+    height: 50px;
+    margin: 10px;
+    width: 300px;
+    position: relative
+ 
+
+
+
+  
+}
+.sign-in{
+  display:flex;
+  background-color: rgb(75, 100, 145);
+  border-radius: 40px;
+  gap:280px
+}
+
+.message{
+  width: 40px;
+  margin-right: 10px;
+}
+.button1{
+  border-radius: 15px;
+  background-color: blue;
+ 
+}
+.flex22{
+  display:flex;
+  gap: 60px;
+  padding-left: 30px;
+  padding-right: 20px;
+  -ms-flex-item-align:center ;
+
+ background-size: cover;
+ min-height: 100vh;
+}
+.apartment{
+  background-image:url('images/44_2a5bbcec59e65b6d356c04632a9f49b4.jpg.jpeg');
+ background-size: cover;
+border-radius:20px;
+ min-width: 200px;
+}
+
+
+
+.villa{
+ background-image:url('images/42_291594956b6e4821f478e7e8c0120d25.jpg.jpeg');
+
+ background-size: cover;
+ border-radius:20px;
+  min-height:10px;
+ min-width: 200px;
+  text-align: center;
+}
+.cottage{
+ background-image: url('images/41_4fc9ff3986c014c1395539c8fe172bde.jpg.jpeg');
+ background-size: cover;
+  min-height:10px;
+ min-width: 200px;
+ border-radius:20px;
+}
+
+.home{
+   background-image: url('images/36_a8108c999af77c008e3568085bec6efb.jpg.jpeg');
+
+ background-size: cover;
+  min-height:10px;
+ min-width: 200px;
+ border-radius:20px;
+
+}
+.country{
+  
+  min-height:10px;
+ min-width: 200px;
+   background-image:url('images/36_a8108c999af77c008e3568085bec6efb.jpg.jpeg');
+text-align: center;
+border-radius:20px;
+}
+.h1acc{
+  margin-left:40px ;
+  color: blue;
+  font-size:36px;
+  
+
+}
+.ph:hover{
+  color: blue;
+}
+.btn1{
+  border-radius: 20px;
+  align-items: center;
+  align-content: center;
+ height: 60px;
+ display: inline-flex;
+ background-color: blue;
+
+}
+
+
+
+.mino{
+  border:solid white;
+  background-color: white;
+  width: 400px;
+   border-radius: 20px;
+  margin-left: 40px;
+  margin-top: 90px;
+  height:400px
+
+  
+  
+ 
+}
+.last{
+  display: flex;
+  background-size: cover;
+  border-radius: 20px;
+min-height: 100vh;
+background-image:url('images/06_732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101.jpg.jpeg')
+}
+.browse{
+  color:darkblue
+}
+.unusual {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: left;
+}
+
+.wordss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.rowf {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wordss p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.destination{
+  gap:20px;
+}
+.paragraph{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.travel-dest{
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:50px
+ 
+}
+.btnlast{
+  width: 250px;
+  margin-left:50px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color:rgb(0, 85, 255);
+ 
+}
+.lastly {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    margin-bottom: 30px;
+  padding-right: 110px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.list li {
+    color: blue;
+    cursor: pointer;
+}
+
+.list li:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.pursue{
+  padding-right:250px;
+}
+.year{
+  padding-left: 20px;
 }
