@@ -11,3 +11,28 @@
 }
 
 /* Write your code below this */
+.title{
+  display: flex;
+  gap: 80px;
+}
+.btn{
+  border-color: black;
+  border-radius: 15px;
+  display:flex;
+
+  
+}
+
+.Downloads{
+  height: 20px;
+}
+.p:hover{
+color:blue
+}
+.accomodation{
+  
+background-image:url('images/08_VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.png.jpeg');
+min-height: 100vh;
+background-size: cover;
+
+}
