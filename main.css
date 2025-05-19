@@ -20,10 +20,40 @@
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: none;
-  max-width: 100%;
-}
+  max-width: 100%;}
+  
 
 /* Write your code below this */
+/* Write your code below this */
+/* Write your code below this */
+.title{
+  display: flex;
+  gap: 80px;
+}
+.btn{
+  border-color: black;
+  border-radius: 15px;
+  display:flex;
+
+  
+}
+
+.Downloads{
+  height: 20px;
+}
+.p:hover{
+color:blue
+}
+.accomodation{
+  
+background-image:url('images/08_VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.png.jpeg');
+min-height: 100vh;
+background-size: cover;
+
+
+
+}
+
 .title{
   display: flex;
   gap: 80px;
@@ -304,13 +334,9 @@ h4 {
 .p:hover{
 color:blue
 }
-.accomodation{
-  
-background-image:url('images/08_VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.png.jpeg');
-min-height: 100vh;
-background-size: cover;
 
-}
+  
+
 .h1{
   color:white;
   margin-left: 60px;
